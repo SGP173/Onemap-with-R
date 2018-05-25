@@ -11,7 +11,7 @@
 library(leaflet)
 
 
-# We will be using the leaflet function to initialise the minimum zoom to 11 and maximum zoom to 19. 
+# We will be using the leaflet function to set the minimum zoom to 11 and maximum zoom to 19. 
 # Do note the zoom value might not be the same should you decide to call other basemaps instead of onemap
 m <- leaflet(width="100%",options = leafletOptions(minZoom = 11, maxZoom = 19))%>%
 
